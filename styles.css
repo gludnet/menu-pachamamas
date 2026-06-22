@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #ffc107;
+}
+
+header p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.menu-container {
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria h2 {
+    font-size: 1.3rem;
+    color: #1a1a1a;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.platillo {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.info {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.info h3 {
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.info p {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.3;
+}
+
+.precio {
+    font-weight: bold;
+    color: #e65100;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #999;
+}
