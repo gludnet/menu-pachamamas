@@ -87,6 +87,24 @@ header p {
 footer {
     text-align: center;
     margin-top: 20px;
+/* Controlar el tamaño del logo en celulares */
+.logo-menu {
+    display: block;
+    margin: 15px auto 5px auto; /* Lo centra horizontalmente */
+    max-width: 140px;           /* Limita el ancho para que no se desborde */
+    height: auto;               /* Mantiene la proporción original */
+    border-radius: 8px;         /* Redondea un poquito las esquinas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Le da un relieve elegante */
+}
+
+/* Acomodar el header negro para que abarque todo el ancho de forma correcta */
+header {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
     font-size: 0.85rem;
     color: #999;
 }
